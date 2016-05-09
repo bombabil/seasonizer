@@ -127,10 +127,14 @@ class CanvasViewController: UIViewController, UINavigationControllerDelegate, UI
             return
          }
     */
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+    }
     
     // TODO: Implement an `@IBAction func unwindToCanvas(segue: UIStoryboardSegue)` Unwing Segue that the `AccessoryListViewController` can exit to.
-    
+    @IBAction func unwindToCanvas(segue: UIStoryboardSegue) {
+        
+    }
     // TODO: For the "selectedAccessory" segue, obtain the selected accessory and add it to the canvas.
     /*
      HINTS:
